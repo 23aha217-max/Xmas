@@ -22,7 +22,7 @@ body {
   overflow-x: hidden;
 
   /* SP基準の背景（元の@media max-width:768の値） */
-  background: url(/img/bg.jpg) center 0 / cover;
+  background: url(../img/bg.jpg) center 0 / cover;
   width: 100%;
 }
 
@@ -590,7 +590,7 @@ footer {
     ========================= */
 @media screen and (min-width: 769px) {
   body {
-    background: url(/img/bg.jpg) no-repeat center center / cover;
+    background: url(../img/bg.jpg) no-repeat center center / cover;
     background-attachment: fixed;
   }
 
